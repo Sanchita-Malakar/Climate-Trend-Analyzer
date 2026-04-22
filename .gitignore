@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env/
+climate_env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large data files (keep processed)
+data/raw/*.csv
+
+# Models (can be regenerated)
+models/*.pkl
+models/*.joblib
+
+# Pytest cache
+.pytest_cache/
+*.pyc
+
+# Logs
+*.log
