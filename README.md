@@ -216,19 +216,6 @@ Expected: **20 tests passed**
 
 ---
 
-## 💼 Interview Talking Points
-
-**Q: What does this project do?**
-> "It analyzes 50 years of climate data to detect long-term warming trends, identify extreme weather anomalies, and forecast future temperatures — the same type of pipeline used by NOAA and IMD."
-
-**Q: What did you find?**
-> "A statistically significant warming rate of +0.254°C per decade with R²=0.955 and p < 0.001, plus 14 climate anomaly events. The 10-year SARIMA forecast projects continued warming averaging 26.4°C through 2034."
-
-**Q: Why SARIMA for forecasting?**
-> "SARIMA captures both the trend (integrated component) and the strong 12-month seasonal cycle in monthly climate data, making it more accurate than simple ARIMA for this use case."
-
-**Q: How did you validate the results?**
-> "I wrote 20 automated pytest tests covering data integrity, feature correctness, output file validation, and statistical sanity checks — all passing."
 
 ---
 
@@ -242,20 +229,7 @@ Expected: **20 tests passed**
 
 ---
 
-## 📚 Dataset
 
-This project uses a **synthetic dataset** generated with statistically realistic parameters:
-- Warming trend: +0.025°C/year (consistent with IPCC global average)
-- Seasonal amplitude: ±8°C
-- Monsoon simulation: June–September rainfall spike
-- 50 injected anomaly events for testing detection accuracy
-
-For real data, this pipeline can be directly applied to:
-- [NOAA Global Surface Temperature](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily)
-- [NASA GISS Surface Temperature](https://data.giss.nasa.gov/gistemp/)
-- [Open-Meteo Historical API](https://open-meteo.com/en/docs/historical-weather-api)
-
----
 
 ## 🛠️ Tech Stack
 
@@ -272,11 +246,5 @@ Testing            pytest
 
 ## 👤 Author
 
-**[Your Name]**  
+**[Sanchita Malakar]**  
 Data Science Portfolio Project  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
-
----
-
-*This project demonstrates skills in: time-series analysis, statistical modeling, anomaly detection, data visualization, automated testing, and scientific reporting.*
